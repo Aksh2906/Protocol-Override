@@ -10,6 +10,10 @@
 # Unity cache
 PackageCache/
 Bee/
+**/Library/
+**/Builds/
+**/PackageCache/
+**/Bee/
 
 # OS junk
 .DS_Store
@@ -31,3 +35,8 @@ Thumbs.db
 *.so
 *.wasm
 *.zip
+
+# Crash logs
+*.json
+!Packages/**/*.json
+!ProjectSettings/**/*.json
